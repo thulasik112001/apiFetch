@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(178, 244, 187);
+
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 23%;
+    box-shadow: 0 0 4px 3px rgb(178, 244, 187);
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+.images{
+width: 80%;
+box-shadow:0 0 4px 3px rgb(117, 117, 116) ;
+}
+.title{
+    font-size: 1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.category,.price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
